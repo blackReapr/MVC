@@ -1,0 +1,10 @@
+﻿@model List<City>
+
+<h1>Cities</h1>
+
+<ul>
+    @foreach (City city in Model)
+    {
+        <li>@city.Name</li>
+    }
+</ul>
